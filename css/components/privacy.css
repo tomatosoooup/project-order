@@ -1,0 +1,32 @@
+.privacy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--footer-color);
+  font-size: 0.95rem;
+  margin-bottom: 40px;
+
+  & > div {
+    margin-top: 20px;
+    max-width: 630px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  & span {
+    cursor: pointer;
+    text-align: center;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .privacy {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

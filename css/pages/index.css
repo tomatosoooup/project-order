@@ -3,15 +3,13 @@
 @import "../common.css";
 @import "../components/container.css";
 @import "../components/navbar.css";
-@import "../components/card.css";
-@import '../components/main.css';
+@import "../components/main.css";
 @import "../components/gallery.css";
 @import "../components/interest.css";
 @import "../components/label.css";
 @import "../components/shops.css";
 @import "../components/express.css";
-
-
-
-
-
+@import "../components/cards.css";
+@import "../components/socail-buttons.css";
+@import "../components/footer.css";
+@import "../components/privacy.css";

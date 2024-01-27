@@ -1,14 +1,17 @@
 :root {
   --button-bg: #fdb0ab;
-  --main-bg: #F3F8F3;
-  --interest-label: #FDB0AB;
-  --interest-bg: #142A31;
-  --gallery-img-bg: #F9FAFB;
+  --button-dark: #102f38;
+  --main-bg: #f3f8f3;
+  --interest-label: #fdb0ab;
+  --interest-bg: #142a31;
+  --gallery-img-bg: #f9fafb;
+  --footer-color: #667085;
 }
 
 body {
   font-family: sans-serif, Arial;
   font-weight: 400;
+  color: var(--interest-bg);
 }
 a {
   text-decoration: none;
@@ -22,4 +25,9 @@ body.disable-scroll {
   border: none;
   outline: none;
   border-radius: 25px;
+  cursor: pointer;
+  opacity: 0.95;
+  &:hover {
+    opacity: 1;
+  }
 }

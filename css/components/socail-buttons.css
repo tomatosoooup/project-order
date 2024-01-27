@@ -1,0 +1,28 @@
+.social-buttons {
+  & > div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    & > button {
+      display: flex;
+      align-items: center;
+      background: var(--button-dark);
+      color: white;
+      padding: 15px 20px;
+      width: 285px;
+
+      & img {
+        width: 26px;
+        height: 26px;
+        margin-left: 2px;
+      }
+      & span {
+        margin: 0 auto;
+        font-size: 1rem;
+        margin-top: 5px;
+      }
+    }
+  }
+}
