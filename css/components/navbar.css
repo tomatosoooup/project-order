@@ -24,7 +24,6 @@
   & button {
     background: var(--button-bg);
     padding: 15px 25px;
-    border-radius: 25px;
     text-transform: uppercase;
     text-align: center;
   }

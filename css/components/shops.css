@@ -1,0 +1,24 @@
+.shops {
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & >.shops__img{
+        width: 50%;
+    }
+    & >.shops__text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        & > h3 {
+            font-size: 2.2rem;
+        }
+
+        & > p {
+            font-size: 1rem;
+            max-width: 500px;
+        }
+    }
+}

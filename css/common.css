@@ -1,5 +1,9 @@
 :root {
   --button-bg: #fdb0ab;
+  --main-bg: #F3F8F3;
+  --interest-label: #FDB0AB;
+  --interest-bg: #142A31;
+  --gallery-img-bg: #F9FAFB;
 }
 
 body {
@@ -17,4 +21,5 @@ body.disable-scroll {
 .button {
   border: none;
   outline: none;
+  border-radius: 25px;
 }
