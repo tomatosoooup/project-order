@@ -3,6 +3,10 @@
   display: flex;
   align-items: center;
 
+  & > .burger {
+    display: none;
+  }
+
   & img {
     margin-right: 20px;
     object-fit: fill;
@@ -13,11 +17,16 @@
     align-items: center;
     justify-content: space-between;
     margin-right: auto;
-    gap: 25px;
+    gap: 10px;
 
-    & li {
-      font-family: "Courier New", "sans-serif";
+    & > li {
+      font-family: "Poppins", "sans-serif";
       font-weight: 400;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -26,5 +35,34 @@
     padding: 15px 25px;
     text-transform: uppercase;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar {
+    & > ul {
+      gap: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    & > ul {
+      display: none;
+    }
+
+    & > button {
+      display: none;
+    }
+
+    & > .burger {
+      width: 48px;
+      height: 48px;
+      margin: 0;
+      display: block;
+      z-index: 20;
+    }
   }
 }

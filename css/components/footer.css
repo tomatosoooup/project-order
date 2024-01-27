@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     height: 100%;
+    font-family: "DM Sans", sans-serif;
 
     & span {
       color: #027a48;
@@ -26,6 +27,7 @@
     & .footer__links {
       display: flex;
       flex-wrap: wrap;
+      width: 50%;
     }
     & > div > img {
       display: none;
@@ -39,6 +41,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
+    & > div {
+      width: 100%;
+    }
 
     & .footer__links {
       display: flex;

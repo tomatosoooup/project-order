@@ -8,9 +8,11 @@
   --footer-color: #667085;
 }
 
-body {
-  font-family: sans-serif, Arial;
+* {
   font-weight: 400;
+}
+
+body {
   color: var(--interest-bg);
 }
 a {
@@ -27,6 +29,7 @@ body.disable-scroll {
   border-radius: 25px;
   cursor: pointer;
   opacity: 0.95;
+  font-family: "Roboto", sans-serif;
   &:hover {
     opacity: 1;
   }
